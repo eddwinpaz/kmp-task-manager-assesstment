@@ -1,0 +1,34 @@
+CREATE TABLE TaskEntity (
+    id TEXT PRIMARY KEY NOT NULL,
+    title TEXT NOT NULL,
+    description TEXT NOT NULL,
+    is_completed INTEGER NOT NULL DEFAULT 0,
+    sync_status TEXT NOT NULL DEFAULT 'SYNCED',
+    created_at INTEGER NOT NULL,
+    updated_at INTEGER NOT NULL
+);
+
+selectAll:
+SELECT * FROM TaskEntity WHERE sync_status != 'PENDING_DELETE' ORDER BY created_at DESC;
+
+selectById:
+SELECT * FROM TaskEntity WHERE id = ?;
+
+selectPendingSync:
+SELECT * FROM TaskEntity WHERE sync_status != 'SYNCED';
+
+countPendingSync:
+SELECT COUNT(*) FROM TaskEntity WHERE sync_status != 'SYNCED';
+
+insert:
+INSERT OR REPLACE INTO TaskEntity(id, title, description, is_completed, sync_status, created_at, updated_at)
+VALUES (?, ?, ?, ?, ?, ?, ?);
+
+updateSyncStatus:
+UPDATE TaskEntity SET sync_status = ? WHERE id = ?;
+
+delete:
+DELETE FROM TaskEntity WHERE id = ?;
+
+deleteAll:
+DELETE FROM TaskEntity;

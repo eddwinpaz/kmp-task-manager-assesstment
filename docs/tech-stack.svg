@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+  <defs>
+    <linearGradient id="kotlinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7F52FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C711E1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="composeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285F4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0F9D58;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ktorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F78C40;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E54C2F;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sqlGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C5EA8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E3A5F;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="koinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F88909;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E85D04;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="coroutinesGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7F52FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5736CC;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow6" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <text x="450" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#1e293b">Stack Tecnológico - Kotlin Multiplatform</text>
+
+  <!-- Row 1: UI & State -->
+  <rect x="50" y="70" width="250" height="130" rx="15" fill="#e0e7ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="175" y="95" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#4338ca">UI &amp; State Management</text>
+
+  <rect x="70" y="110" width="100" height="70" rx="10" fill="url(#composeGrad)" filter="url(#shadow6)"/>
+  <text x="120" y="140" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">Compose</text>
+  <text x="120" y="155" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="rgba(255,255,255,0.9)">Multiplatform</text>
+  <text x="120" y="170" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="rgba(255,255,255,0.8)">Declarative UI</text>
+
+  <rect x="180" y="110" width="100" height="70" rx="10" fill="#6366f1" filter="url(#shadow6)"/>
+  <text x="230" y="140" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">Voyager</text>
+  <text x="230" y="155" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="rgba(255,255,255,0.9)">Navigation</text>
+  <text x="230" y="170" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="rgba(255,255,255,0.8)">Type-safe</text>
+
+  <!-- Row 1: Networking -->
+  <rect x="325" y="70" width="250" height="130" rx="15" fill="#ffedd5" stroke="#f97316" stroke-width="2"/>
+  <text x="450" y="95" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#c2410c">Networking</text>
+
+  <rect x="345" y="110" width="100" height="70" rx="10" fill="url(#ktorGrad)" filter="url(#shadow6)"/>
+  <text x="395" y="140" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">Ktor</text>
+  <text x="395" y="155" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="rgba(255,255,255,0.9)">HTTP Client</text>
+  <text x="395" y="170" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="rgba(255,255,255,0.8)">Async Native</text>
+
+  <rect x="455" y="110" width="100" height="70" rx="10" fill="#fb923c" filter="url(#shadow6)"/>
+  <text x="505" y="135" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Kotlinx</text>
+  <text x="505" y="150" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Serialization</text>
+  <text x="505" y="170" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="rgba(255,255,255,0.8)">JSON Parsing</text>
+
+  <!-- Row 1: Data -->
+  <rect x="600" y="70" width="250" height="130" rx="15" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="725" y="95" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e40af">Data &amp; Persistence</text>
+
+  <rect x="620" y="110" width="100" height="70" rx="10" fill="url(#sqlGrad)" filter="url(#shadow6)"/>
+  <text x="670" y="140" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">SQLDelight</text>
+  <text x="670" y="155" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="rgba(255,255,255,0.9)">Type-safe SQL</text>
+  <text x="670" y="170" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="rgba(255,255,255,0.8)">Compile-time</text>
+
+  <rect x="730" y="110" width="100" height="70" rx="10" fill="#3b82f6" filter="url(#shadow6)"/>
+  <text x="780" y="140" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">SQLCipher</text>
+  <text x="780" y="155" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="rgba(255,255,255,0.9)">Encryption</text>
+  <text x="780" y="170" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="rgba(255,255,255,0.8)">AES-256</text>
+
+  <!-- Row 2: Core -->
+  <rect x="50" y="220" width="250" height="130" rx="15" fill="#fae8ff" stroke="#d946ef" stroke-width="2"/>
+  <text x="175" y="245" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#a21caf">DI &amp; Architecture</text>
+
+  <rect x="70" y="260" width="100" height="70" rx="10" fill="url(#koinGrad)" filter="url(#shadow6)"/>
+  <text x="120" y="290" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">Koin</text>
+  <text x="120" y="305" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="rgba(255,255,255,0.9)">DI Framework</text>
+  <text x="120" y="320" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="rgba(255,255,255,0.8)">Kotlin DSL</text>
+
+  <rect x="180" y="260" width="100" height="70" rx="10" fill="#d946ef" filter="url(#shadow6)"/>
+  <text x="230" y="285" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Clean</text>
+  <text x="230" y="300" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Architecture</text>
+  <text x="230" y="320" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="rgba(255,255,255,0.8)">+ MVI Pattern</text>
+
+  <!-- Row 2: Async -->
+  <rect x="325" y="220" width="250" height="130" rx="15" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="450" y="245" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#6d28d9">Async &amp; Reactive</text>
+
+  <rect x="345" y="260" width="100" height="70" rx="10" fill="url(#coroutinesGrad)" filter="url(#shadow6)"/>
+  <text x="395" y="290" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">Coroutines</text>
+  <text x="395" y="305" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="rgba(255,255,255,0.9)">Structured</text>
+  <text x="395" y="320" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="rgba(255,255,255,0.8)">Concurrency</text>
+
+  <rect x="455" y="260" width="100" height="70" rx="10" fill="#8b5cf6" filter="url(#shadow6)"/>
+  <text x="505" y="290" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">Flow</text>
+  <text x="505" y="305" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="rgba(255,255,255,0.9)">Reactive Streams</text>
+  <text x="505" y="320" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="rgba(255,255,255,0.8)">Cold Streams</text>
+
+  <!-- Row 2: Testing -->
+  <rect x="600" y="220" width="250" height="130" rx="15" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+  <text x="725" y="245" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#166534">Testing</text>
+
+  <rect x="620" y="260" width="100" height="70" rx="10" fill="#22c55e" filter="url(#shadow6)"/>
+  <text x="670" y="290" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">Kotlin Test</text>
+  <text x="670" y="305" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="rgba(255,255,255,0.9)">Multiplatform</text>
+  <text x="670" y="320" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="rgba(255,255,255,0.8)">Unit Testing</text>
+
+  <rect x="730" y="260" width="100" height="70" rx="10" fill="#16a34a" filter="url(#shadow6)"/>
+  <text x="780" y="290" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">Turbine</text>
+  <text x="780" y="305" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="rgba(255,255,255,0.9)">Flow Testing</text>
+  <text x="780" y="320" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="rgba(255,255,255,0.8)">Assertions</text>
+
+  <!-- Platform Specific Section -->
+  <rect x="50" y="370" width="800" height="130" rx="15" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="450" y="395" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#92400e">Platform-Specific (expect/actual)</text>
+
+  <!-- Android -->
+  <rect x="80" y="415" width="220" height="70" rx="10" fill="#34a853" filter="url(#shadow6)"/>
+  <text x="190" y="440" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="white">Android</text>
+  <text x="190" y="460" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="rgba(255,255,255,0.9)">WorkManager | Firebase | Keystore</text>
+  <text x="190" y="475" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="rgba(255,255,255,0.8)">EncryptedSharedPreferences</text>
+
+  <!-- Shared -->
+  <rect x="340" y="415" width="220" height="70" rx="10" fill="url(#kotlinGrad)" filter="url(#shadow6)"/>
+  <text x="450" y="440" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="white">Shared (~80%)</text>
+  <text x="450" y="460" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="rgba(255,255,255,0.9)">Business Logic | UI | Data</text>
+  <text x="450" y="475" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="rgba(255,255,255,0.8)">commonMain</text>
+
+  <!-- iOS -->
+  <rect x="600" y="415" width="220" height="70" rx="10" fill="#007AFF" filter="url(#shadow6)"/>
+  <text x="710" y="440" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="white">iOS</text>
+  <text x="710" y="460" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="rgba(255,255,255,0.9)">BGTaskScheduler | APNs | Keychain</text>
+  <text x="710" y="475" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="rgba(255,255,255,0.8)">Secure Enclave</text>
+</svg>

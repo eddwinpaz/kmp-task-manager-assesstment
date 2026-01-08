@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540">
+  <defs>
+    <linearGradient id="presentationGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="domainGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dataGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a2e">Clean Architecture + MVI</text>
+
+  <!-- Presentation Layer -->
+  <rect x="50" y="70" width="700" height="120" rx="15" fill="url(#presentationGrad)" filter="url(#shadow)"/>
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">PRESENTATION LAYER</text>
+
+  <!-- Presentation components -->
+  <rect x="80" y="115" width="150" height="55" rx="8" fill="white" fill-opacity="0.9"/>
+  <text x="155" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#667eea">Compose UI</text>
+  <text x="155" y="158" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">Screens, Components</text>
+
+  <rect x="250" y="115" width="150" height="55" rx="8" fill="white" fill-opacity="0.9"/>
+  <text x="325" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#667eea">ViewModel</text>
+  <text x="325" y="158" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">MVI Pattern</text>
+
+  <rect x="420" y="115" width="150" height="55" rx="8" fill="white" fill-opacity="0.9"/>
+  <text x="495" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#667eea">UI State</text>
+  <text x="495" y="158" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">Immutable Data Class</text>
+
+  <rect x="590" y="115" width="130" height="55" rx="8" fill="white" fill-opacity="0.9"/>
+  <text x="655" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#667eea">Effects</text>
+  <text x="655" y="158" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">One-time events</text>
+
+  <!-- Arrow down -->
+  <path d="M400 195 L400 215 L385 215 L400 235 L415 215 L400 215" fill="#1a1a2e"/>
+
+  <!-- Domain Layer -->
+  <rect x="50" y="240" width="700" height="120" rx="15" fill="url(#domainGrad)" filter="url(#shadow)"/>
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">DOMAIN LAYER</text>
+
+  <!-- Domain components -->
+  <rect x="100" y="285" width="170" height="55" rx="8" fill="white" fill-opacity="0.9"/>
+  <text x="185" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#f5576c">Entities</text>
+  <text x="185" y="328" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">Business Models</text>
+
+  <rect x="315" y="285" width="170" height="55" rx="8" fill="white" fill-opacity="0.9"/>
+  <text x="400" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#f5576c">Use Cases</text>
+  <text x="400" y="328" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">Business Logic</text>
+
+  <rect x="530" y="285" width="170" height="55" rx="8" fill="white" fill-opacity="0.9"/>
+  <text x="615" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#f5576c">Repository Interface</text>
+  <text x="615" y="328" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">Contracts</text>
+
+  <!-- Arrow down -->
+  <path d="M400 365 L400 385 L385 385 L400 405 L415 385 L400 385" fill="#1a1a2e"/>
+
+  <!-- Data Layer -->
+  <rect x="50" y="410" width="700" height="120" rx="15" fill="url(#dataGrad)" filter="url(#shadow)"/>
+  <text x="400" y="440" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">DATA LAYER</text>
+
+  <!-- Data components -->
+  <rect x="80" y="455" width="150" height="55" rx="8" fill="white" fill-opacity="0.9"/>
+  <text x="155" y="480" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#00b4d8">Repository Impl</text>
+  <text x="155" y="498" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">Data Coordination</text>
+
+  <rect x="250" y="455" width="150" height="55" rx="8" fill="white" fill-opacity="0.9"/>
+  <text x="325" y="480" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#00b4d8">Remote DS</text>
+  <text x="325" y="498" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">Ktor Client / API</text>
+
+  <rect x="420" y="455" width="150" height="55" rx="8" fill="white" fill-opacity="0.9"/>
+  <text x="495" y="480" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#00b4d8">Local DS</text>
+  <text x="495" y="498" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">SQLDelight</text>
+
+  <rect x="590" y="455" width="130" height="55" rx="8" fill="white" fill-opacity="0.9"/>
+  <text x="655" y="480" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#00b4d8">Mappers</text>
+  <text x="655" y="498" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">DTO ↔ Entity</text>
+</svg>
